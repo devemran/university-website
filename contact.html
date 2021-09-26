@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University website desgin</title>
+
+	<!-- Goggle-font-connect -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- HEADER SECTION -->
+
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contact Us</h1>
+	</section>
+
+	<!-- contact us-->
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24575.801111807585!2d89.00434234870728!3d25.10248823459102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc920e30f74a01%3A0x79daa6e9aa5ecdff!2sJoypurhat!5e1!3m2!1sen!2sbd!4v1632636555987!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>Ab Road, XYZ Building</h5>
+						<p>Joypurhat,Rajsahi,Bngladesh</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>01757929614</h5>
+						<p>Without Friday,10AM to 5PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fas fa-envelope"></i>
+					<span>
+						<h5>devemran14@gmail.com</h5>
+						<p>Email us your query</p>
+					</span>
+				</div>
+			</div>
+
+			<div class="contact-col">
+				
+				<form action="">
+					<input type="text" placeholder="Enter Your Name" required="">
+					<input type="email" placeholder="Enter Email Adress" required="">
+					<input type="text" placeholder="Enter Your Subject" required="">
+					<textarea  rows="8" placeholder="massage"></textarea>
+					<button type="submit" class="hero-btn">Send Massage</button>
+				</form>
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+ 
+
+	<!-- footer -->
+
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Quasi temporibus aperiam quisquam quis eveniet modi. Eum id, adipisci nesciunt,<br> nam placeat perferendis, nemo ex accusamus distinctio natus libero illum. Accusantium!</p>
+		<div class="icons">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+
+		</div>
+		<p>Made with <i class="far fa-heart"></i> by Easy Tutorials</p>
+	</section>
+
+
+
+
+
+
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right ="0";
+		}
+		function hideMenu(){
+			navLinks.style.right ="-200px";
+		}
+
+		
+
+	</script>
+	
+</body>
+</html>
